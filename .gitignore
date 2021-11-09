@@ -1,2 +1,6 @@
 /node_modules
 env_variables.yaml
+.browserslistrc
+.editorconfig
+weather-angular-app/.angular
+weather-angular-app/node_modules

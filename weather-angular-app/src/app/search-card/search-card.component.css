@@ -1,0 +1,27 @@
+.border-gray {
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.search-card {
+    padding: 20px 8%;
+    background-color: rgb(241, 241, 241);
+}
+
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+    padding: 0 3px;
+}
+
+.button:disabled {
+    opacity: 80%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nav-item {
+    cursor: pointer;
+}

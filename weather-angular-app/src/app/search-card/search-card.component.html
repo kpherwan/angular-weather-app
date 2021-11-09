@@ -1,0 +1,179 @@
+<form class="text-center border-gray justify-content-center search-card">
+    <strong class="h4">Weather Search 🌤️</strong>
+    <div class="form-group row py-2 required">
+        <label for="street" class="col-sm-4 text-start col-form-label control-label">Street</label>
+        <div class="col-sm-8">
+            <input type="text" [disabled]="isAutoDetect" required="true" class="form-control" id="street">
+        </div>
+    </div>
+
+    <div class="form-group row py-2 required">
+        <label for="city" class="col-sm-4 col-form-label text-start control-label">City</label>
+        <div class="col-sm-8">
+            <input matInput [matAutocomplete]="auto" [readonly]="isAutoDetect" [formControl]="searchCitiesCtrl"
+                type="text" required="true" class="form-control" id="city">
+            <mat-autocomplete #auto="matAutocomplete">
+                <mat-option *ngIf="isLoading" class="is-loading">Loading...</mat-option>
+                <ng-container *ngIf="!isLoading">
+                    <mat-option *ngFor="let currentCity of filteredCities" [value]="currentCity.city">
+                        <span>{{currentCity.city}}, {{currentCity.state}}</span>
+                    </mat-option>
+                </ng-container>
+            </mat-autocomplete>
+        </div>
+    </div>
+
+    <div class="form-group row py-2">
+        <label for="state" class="col-sm-4 col-form-label text-start control-label">State</label>
+        <div class="col-md-4">
+            <select class="form-select" [disabled]="isAutoDetect" id="state" required>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA" selected>California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+            </select>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="form-group row py-2 required">
+        <label class="form-check-label col-sm-4 text-start control-label" for="autodetect">
+            Auto-detect location
+        </label>
+        <div class=" col-sm-8 text-start">
+            <input class="form-check-input" type="checkbox" value="" id="isAutoDetect" name="isAutoDetect"
+                [(ngModel)]="isAutoDetect">
+            <span class="px-3">Current Location</span>
+        </div>
+    </div>
+
+    <div class="d-flex flex-row">
+        <button type="submit" [disabled]="!isAutoDetect" class="btn btn-sm btn-primary mx-3 my-3 p-2"
+            (click)="onSearch()">
+            <fa-icon [icon]="faSearch" class="px-2"></fa-icon>Search
+        </button>
+
+        <button type="reset" class="btn btn-sm btn-primar border-dark bg-white text-black mx-3 my-3">
+            <fa-icon [icon]="faBars" class="px-2"></fa-icon>Clear
+        </button>
+    </div>
+</form>
+
+<ul class="nav nav-pills justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link m-3" [ngClass]="{'active': activeTab === 'resultsTab'}" aria-current="page" href="#"
+            id="resultsTab">Results</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link m-3" [ngClass]="{'active': activeTab === 'faveTab'}" href="#" id="faveTab">Favorites</a>
+    </li>
+</ul>
+
+<div class="d-flex justify-content-center d-none" id="progressBar">
+    <div class="progress w-50 my-5">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%"
+            id="progressInner"></div>
+    </div>
+</div>
+
+<div class="justify-content-center d-none my-5" id="resultContainer">
+    <div class="h4 bold text-center">Forecast at {{locationStr}}</div>
+    <div class="text-end gray">
+        <span class="border-black px-2 mx-2">☆</span>Details >
+    </div>
+
+    <ul class="nav nav-tabs my-3 justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" [ngClass]="{'active': activeResultsTab === 'day'}" aria-current="page"
+                (click)="activeResultsTab = 'day'">Day View</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [ngClass]="{'active': activeResultsTab === 'temp'}"
+                (click)="activeResultsTab = 'temp'">Daily Temp Chart</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [ngClass]="{'active': activeResultsTab === 'meteogram'}"
+                (click)="activeResultsTab = 'meteogram'">Meteogram</a>
+        </li>
+    </ul>
+
+    <table class="table table-hover" [ngClass]="{'d-none': activeResultsTab != 'day'}">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Date</th>
+                <th scope="col">Status</th>
+                <th scope="col">Temp High (°F)</th>
+                <th scope="col">Temp Low (°F)</th>
+                <th scope="col">Wind Speed (mph)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let interval of intervals; index as indexOfElement;">
+                <td class="bold">{{indexOfElement + 1}}</td>
+                <td><a href="#">{{interval.dateStr}}</a></td>
+                <td><img src={{interval.image}} class="mx-2 img-fluid" />{{interval.statusText}}</td>
+                <td>{{interval.values.temperatureMax}}</td>
+                <td>{{interval.values.temperatureMin}}</td>
+                <td>{{interval.values.windSpeed}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <div [ngClass]="{'d-none': activeResultsTab != 'temp'}">
+        <highcharts-chart [Highcharts]="Highcharts" [constructorType]="chartConstructor" [options]="chartOptions"
+            [callbackFunction]="chartCallback" [(update)]="updateFlag" [oneToOne]="oneToOneFlag"
+            [runOutsideAngular]="runOutsideAngularFlag" style="width: 100%; height: 400px; display: block;">
+        </highcharts-chart>
+    </div>
+</div>
