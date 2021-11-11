@@ -3,7 +3,8 @@
     <div class="form-group row py-2 required">
         <label for="street" class="col-sm-4 text-start col-form-label control-label">Street</label>
         <div class="col-sm-8">
-            <input type="text" [disabled]="isAutoDetect" required="true" class="form-control" id="street">
+            <input type="text" [disabled]="isAutoDetect" [(ngModel)]="street" required="true" class="form-control"
+                id="street" name="street">
         </div>
     </div>
 
@@ -11,11 +12,11 @@
         <label for="city" class="col-sm-4 col-form-label text-start control-label">City</label>
         <div class="col-sm-8">
             <input matInput [matAutocomplete]="auto" [readonly]="isAutoDetect" [formControl]="searchCitiesCtrl"
-                type="text" required="true" class="form-control" id="city">
+                type="text" required="true" class="form-control" id="city" [(ngModel)]="city">
             <mat-autocomplete #auto="matAutocomplete">
                 <mat-option *ngIf="isLoading" class="is-loading">Loading...</mat-option>
                 <ng-container *ngIf="!isLoading">
-                    <mat-option *ngFor="let currentCity of filteredCities" [value]="currentCity.city">
+                    <mat-option *ngFor="let currentCity of filteredCities" [value]="currentCity.city" (click)="state=currentCity.state;">
                         <span>{{currentCity.city}}, {{currentCity.state}}</span>
                     </mat-option>
                 </ng-container>
@@ -26,7 +27,7 @@
     <div class="form-group row py-2">
         <label for="state" class="col-sm-4 col-form-label text-start control-label">State</label>
         <div class="col-md-4">
-            <select class="form-select" [disabled]="isAutoDetect" id="state" required>
+            <select class="form-select" [disabled]="isAutoDetect" [(ngModel)]="state" id="state" required name="state">
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
                 <option value="AZ">Arizona</option>
@@ -110,11 +111,12 @@
 <ul class="nav nav-pills justify-content-center">
     <li class="nav-item">
         <a class="nav-link m-3" [ngClass]="{'active': activeTab === 'resultsTab'}" aria-current="page" href="#"
-            id="resultsTab">Results</a>
+            id="resultsTab" (click)="activeTab = 'resultsTab'">Results</a>
     </li>
 
     <li class="nav-item">
-        <a class="nav-link m-3" [ngClass]="{'active': activeTab === 'faveTab'}" href="#" id="faveTab">Favorites</a>
+        <a class="nav-link m-3" [ngClass]="{'active': activeTab === 'faveTab'}" href="#" id="faveTab"
+            (click)="activeTab = 'faveTab'">Favorites</a>
     </li>
 </ul>
 
@@ -125,55 +127,149 @@
     </div>
 </div>
 
-<div class="justify-content-center d-none my-5" id="resultContainer">
-    <div class="h4 bold text-center">Forecast at {{locationStr}}</div>
-    <div class="text-end gray">
-        <span class="border-black px-2 mx-2">☆</span>Details >
+<app-slide [activePane]="isLeftVisible ? 'left' : 'right'"
+    [ngClass]="{'d-none': activeTab != 'resultsTab' ||  initializedData == undefined}" id="resultContainer">
+    <div leftPane>
+        <div class="justify-content-center my-5">
+            <div class="h4 bold text-center">Forecast at {{locationStr}}</div>
+            <div class="text-end gray">
+                <div class="cpointer">
+                    <svg class="svgSize border border-dark p-1 mx-1">
+                        <image *ngIf="!isFave" (click)="toggleFave()"
+                            xlink:href="https://csci571-hw8-329706.wl.r.appspot.com/images/star.svg" />
+                        <image *ngIf="isFave" (click)="toggleFave()"
+                            xlink:href="https://csci571-hw8-329706.wl.r.appspot.com/images/fillStar.svg" />
+                    </svg>
+                    Details >
+                </div>
+            </div>
+
+            <ul class="nav nav-tabs my-3 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" [ngClass]="{'active': activeResultsTab === 'day'}" aria-current="page"
+                        (click)="activeResultsTab = 'day'">Day View</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [ngClass]="{'active': activeResultsTab === 'temp'}"
+                        (click)="activeResultsTab = 'temp'">Daily Temp Chart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [ngClass]="{'active': activeResultsTab === 'meteogram'}"
+                        (click)="activeResultsTab = 'meteogram'">Meteogram</a>
+                </li>
+            </ul>
+            <div class="table-responsive">
+                <table class="table table-hover" [ngClass]="{'d-none': activeResultsTab != 'day'}">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Temp High (°F)</th>
+                            <th scope="col">Temp Low (°F)</th>
+                            <th scope="col">Wind Speed (mph)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let interval of intervals; index as indexOfElement;">
+                            <td class="bold">{{indexOfElement + 1}}</td>
+                            <td>
+                                <a href="#"
+                                    (click)="(currentDateData = interval); (isLeftVisible = !isLeftVisible); scrollTop(); initializeDetails()">{{interval.dateStr}}</a>
+                            </td>
+                            <td><img src={{interval.image}} class="mx-2 img-fluid" />{{interval.statusText}}</td>
+                            <td>{{interval.values.temperatureMax}}</td>
+                            <td>{{interval.values.temperatureMin}}</td>
+                            <td>{{interval.values.windSpeed}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div [ngClass]="{'d-none': activeResultsTab != 'temp'}">
+                <highcharts-chart [Highcharts]="Highcharts" [constructorType]="chartConstructor"
+                    [options]="chartOptions" [callbackFunction]="chartCallback" [(update)]="updateFlag"
+                    [oneToOne]="oneToOneFlag" [runOutsideAngular]="runOutsideAngularFlag"
+                    style="width: 100%; height: 400px; display: block;">
+                </highcharts-chart>
+            </div>
+
+            <div [ngClass]="{'d-none': activeResultsTab != 'meteogram'}" id="container2">
+                <highcharts-chart [Highcharts]="Highcharts" [constructorType]="chartConstructor"
+                    [options]="chartOptions2" [callbackFunction]="chartCallback" [(update)]="updateFlag"
+                    [oneToOne]="oneToOneFlag" [runOutsideAngular]="runOutsideAngularFlag"
+                    style="width: 100%; height: 400px; display: block;">
+                </highcharts-chart>
+            </div>
+        </div>
     </div>
+    <div rightPane>
+        <div class=" my-5" id="detailContainer">
+            <div class="d-flex flex-row justify-content-between my-4">
+                <button class="border p-1 border-2 border-dark" (click)="(isLeftVisible = !isLeftVisible)">
+                    < List</button>
+                        <div class="bold">{{currentDateData?.dateStr}}</div>
+                        <a class="twitter-share-button" [href]="twitterText" target="blank">
+                            <svg class="svgSize">
+                                <image xlink:href="https://csci571-hw8-329706.wl.r.appspot.com/images/twitter.svg" />
+                            </svg>
+                        </a>
+            </div>
 
-    <ul class="nav nav-tabs my-3 justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link" [ngClass]="{'active': activeResultsTab === 'day'}" aria-current="page"
-                (click)="activeResultsTab = 'day'">Day View</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" [ngClass]="{'active': activeResultsTab === 'temp'}"
-                (click)="activeResultsTab = 'temp'">Daily Temp Chart</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" [ngClass]="{'active': activeResultsTab === 'meteogram'}"
-                (click)="activeResultsTab = 'meteogram'">Meteogram</a>
-        </li>
-    </ul>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <th scope="row" style="width: 35%">Status</th>
+                        <td>{{currentDateData?.statusText}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Temperature</th>
+                        <td>{{currentDateData?.values.temperatureMax}} °F</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Min Temperature</th>
+                        <td>{{currentDateData?.values.temperatureMin}} °F</td>
+                    </tr>
 
-    <table class="table table-hover" [ngClass]="{'d-none': activeResultsTab != 'day'}">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Date</th>
-                <th scope="col">Status</th>
-                <th scope="col">Temp High (°F)</th>
-                <th scope="col">Temp Low (°F)</th>
-                <th scope="col">Wind Speed (mph)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let interval of intervals; index as indexOfElement;">
-                <td class="bold">{{indexOfElement + 1}}</td>
-                <td><a href="#">{{interval.dateStr}}</a></td>
-                <td><img src={{interval.image}} class="mx-2 img-fluid" />{{interval.statusText}}</td>
-                <td>{{interval.values.temperatureMax}}</td>
-                <td>{{interval.values.temperatureMin}}</td>
-                <td>{{interval.values.windSpeed}}</td>
-            </tr>
+                    <tr>
+                        <th scope="row">Apparent Temperature</th>
+                        <td>{{currentDateData?.values.temperatureApparent}} °F</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sun Rise Time</th>
+                        <td>{{currentDateData?.sunriseTime}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sun Set Time</th>
+                        <td>{{currentDateData?.sunsetTime}}</td>
+                    </tr>
 
-        </tbody>
-    </table>
+                    <tr>
+                        <th scope="row">Humidity</th>
+                        <td>{{currentDateData?.values.humidity}} %</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wind Speed</th>
+                        <td>{{currentDateData?.values.windSpeed}} mph</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Visibility</th>
+                        <td>{{currentDateData?.values.visibility}} mi</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Cloud Cover</th>
+                        <td>{{currentDateData?.values.cloudCover}} %</td>
+                    </tr>
+                </tbody>
+            </table>
 
-    <div [ngClass]="{'d-none': activeResultsTab != 'temp'}">
-        <highcharts-chart [Highcharts]="Highcharts" [constructorType]="chartConstructor" [options]="chartOptions"
-            [callbackFunction]="chartCallback" [(update)]="updateFlag" [oneToOne]="oneToOneFlag"
-            [runOutsideAngular]="runOutsideAngularFlag" style="width: 100%; height: 400px; display: block;">
-        </highcharts-chart>
+            <div class="full" id="map"></div>
+        </div>
+    </div>
+</app-slide>
+
+<div [ngClass]="{'d-none': activeTab != 'faveTab'}">
+    <div class="alert alert-warning" *ngIf="activeTab == 'faveTab'">
+        <span class="bold">Sorry! </span>No records found.
     </div>
 </div>

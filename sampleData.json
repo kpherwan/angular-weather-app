@@ -1,0 +1,2444 @@
+{
+    "current": {
+        "data": {
+            "timelines": [
+                {
+                    "timestep": "current",
+                    "startTime": "2021-11-09T12:02:00-08:00",
+                    "endTime": "2021-11-09T12:02:00-08:00",
+                    "intervals": [
+                        {
+                            "startTime": "2021-11-09T12:02:00-08:00",
+                            "values": {
+                                "temperature": 65.08,
+                                "temperatureApparent": 65.08,
+                                "temperatureMin": 65.08,
+                                "temperatureMax": 65.08,
+                                "windSpeed": 1.41,
+                                "windDirection": 327.63,
+                                "humidity": 66,
+                                "pressureSeaLevel": 30.22,
+                                "uvIndex": 3,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 35
+                            }
+                        }
+                    ]
+                },
+                {
+                    "timestep": "1h",
+                    "startTime": "2021-11-09T12:00:00-08:00",
+                    "endTime": "2021-11-14T00:00:00-08:00",
+                    "intervals": [
+                        {
+                            "startTime": "2021-11-09T12:00:00-08:00",
+                            "values": {
+                                "temperature": 65.08,
+                                "temperatureApparent": 65.08,
+                                "temperatureMin": 65.08,
+                                "temperatureMax": 65.08,
+                                "windSpeed": 1.41,
+                                "windDirection": 327.63,
+                                "humidity": 66,
+                                "pressureSeaLevel": 30.22,
+                                "uvIndex": 3,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 35
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T13:00:00-08:00",
+                            "values": {
+                                "temperature": 68.67,
+                                "temperatureApparent": 68.67,
+                                "temperatureMin": 68.67,
+                                "temperatureMax": 68.67,
+                                "windSpeed": 9.78,
+                                "windDirection": 254.05,
+                                "humidity": 57.12,
+                                "pressureSeaLevel": 30.17,
+                                "uvIndex": 2,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 14.22
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T14:00:00-08:00",
+                            "values": {
+                                "temperature": 65.3,
+                                "temperatureApparent": 65.3,
+                                "temperatureMin": 65.3,
+                                "temperatureMax": 65.3,
+                                "windSpeed": 10.69,
+                                "windDirection": 253.77,
+                                "humidity": 59.82,
+                                "pressureSeaLevel": 30.16,
+                                "uvIndex": 1,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 98.67
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T15:00:00-08:00",
+                            "values": {
+                                "temperature": 63.79,
+                                "temperatureApparent": 63.79,
+                                "temperatureMin": 63.79,
+                                "temperatureMax": 63.79,
+                                "windSpeed": 11.88,
+                                "windDirection": 256.42,
+                                "humidity": 69.7,
+                                "pressureSeaLevel": 30.16,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 78.76
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T16:00:00-08:00",
+                            "values": {
+                                "temperature": 61.83,
+                                "temperatureApparent": 61.83,
+                                "temperatureMin": 61.83,
+                                "temperatureMax": 61.83,
+                                "windSpeed": 11.21,
+                                "windDirection": 259.83,
+                                "humidity": 81.32,
+                                "pressureSeaLevel": 30.13,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 91.94
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T17:00:00-08:00",
+                            "values": {
+                                "temperature": 59.88,
+                                "temperatureApparent": 59.88,
+                                "temperatureMin": 59.88,
+                                "temperatureMax": 59.88,
+                                "windSpeed": 9.73,
+                                "windDirection": 258.56,
+                                "humidity": 87.15,
+                                "pressureSeaLevel": 30.13,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 8.94,
+                                "cloudCover": 99.74
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T18:00:00-08:00",
+                            "values": {
+                                "temperature": 58.8,
+                                "temperatureApparent": 58.8,
+                                "temperatureMin": 58.8,
+                                "temperatureMax": 58.8,
+                                "windSpeed": 5.59,
+                                "windDirection": 256.31,
+                                "humidity": 92.35,
+                                "pressureSeaLevel": 30.16,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 8,
+                                "cloudCover": 100
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T19:00:00-08:00",
+                            "values": {
+                                "temperature": 57.83,
+                                "temperatureApparent": 57.83,
+                                "temperatureMin": 57.83,
+                                "temperatureMax": 57.83,
+                                "windSpeed": 2.44,
+                                "windDirection": 193.05,
+                                "humidity": 93.38,
+                                "pressureSeaLevel": 30.16,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 7.63,
+                                "cloudCover": 100
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T20:00:00-08:00",
+                            "values": {
+                                "temperature": 57,
+                                "temperatureApparent": 57,
+                                "temperatureMin": 57,
+                                "temperatureMax": 57,
+                                "windSpeed": 3.04,
+                                "windDirection": 107.44,
+                                "humidity": 93.22,
+                                "pressureSeaLevel": 30.16,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 7.58,
+                                "cloudCover": 93.13
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T21:00:00-08:00",
+                            "values": {
+                                "temperature": 56.93,
+                                "temperatureApparent": 56.93,
+                                "temperatureMin": 56.93,
+                                "temperatureMax": 56.93,
+                                "windSpeed": 3.33,
+                                "windDirection": 112.96,
+                                "humidity": 94.8,
+                                "pressureSeaLevel": 30.16,
+                                "uvIndex": 0,
+                                "weatherCode": 1102,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 7.58,
+                                "cloudCover": 74.33
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T22:00:00-08:00",
+                            "values": {
+                                "temperature": 58.15,
+                                "temperatureApparent": 58.15,
+                                "temperatureMin": 58.15,
+                                "temperatureMax": 58.15,
+                                "windSpeed": 1.66,
+                                "windDirection": 119.78,
+                                "humidity": 96.56,
+                                "pressureSeaLevel": 30.15,
+                                "uvIndex": 0,
+                                "weatherCode": 2100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 2.75,
+                                "cloudCover": 100
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-09T23:00:00-08:00",
+                            "values": {
+                                "temperature": 58.89,
+                                "temperatureApparent": 58.89,
+                                "temperatureMin": 58.89,
+                                "temperatureMax": 58.89,
+                                "windSpeed": 3.98,
+                                "windDirection": 58.51,
+                                "humidity": 96.04,
+                                "pressureSeaLevel": 30.15,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 5.7,
+                                "cloudCover": 100
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T00:00:00-08:00",
+                            "values": {
+                                "temperature": 58.39,
+                                "temperatureApparent": 58.39,
+                                "temperatureMin": 58.39,
+                                "temperatureMax": 58.39,
+                                "windSpeed": 4.14,
+                                "windDirection": 80.45,
+                                "humidity": 95.17,
+                                "pressureSeaLevel": 30.14,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 7.58,
+                                "cloudCover": 77.03
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T01:00:00-08:00",
+                            "values": {
+                                "temperature": 59.13,
+                                "temperatureApparent": 59.13,
+                                "temperatureMin": 59.13,
+                                "temperatureMax": 59.13,
+                                "windSpeed": 3.76,
+                                "windDirection": 85.53,
+                                "humidity": 93.11,
+                                "pressureSeaLevel": 30.15,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 7.79,
+                                "cloudCover": 98.09
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T02:00:00-08:00",
+                            "values": {
+                                "temperature": 58.86,
+                                "temperatureApparent": 58.86,
+                                "temperatureMin": 58.86,
+                                "temperatureMax": 58.86,
+                                "windSpeed": 3.13,
+                                "windDirection": 84.42,
+                                "humidity": 93.72,
+                                "pressureSeaLevel": 30.15,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 7.68,
+                                "cloudCover": 95.71
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T03:00:00-08:00",
+                            "values": {
+                                "temperature": 58.6,
+                                "temperatureApparent": 58.6,
+                                "temperatureMin": 58.6,
+                                "temperatureMax": 58.6,
+                                "windSpeed": 2.64,
+                                "windDirection": 94.33,
+                                "humidity": 93.72,
+                                "pressureSeaLevel": 30.12,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 7.74,
+                                "cloudCover": 100
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T04:00:00-08:00",
+                            "values": {
+                                "temperature": 58.89,
+                                "temperatureApparent": 58.89,
+                                "temperatureMin": 58.89,
+                                "temperatureMax": 58.89,
+                                "windSpeed": 4.14,
+                                "windDirection": 92.15,
+                                "humidity": 91.27,
+                                "pressureSeaLevel": 30.12,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 8.02,
+                                "cloudCover": 100
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T05:00:00-08:00",
+                            "values": {
+                                "temperature": 58.82,
+                                "temperatureApparent": 58.82,
+                                "temperatureMin": 58.82,
+                                "temperatureMax": 58.82,
+                                "windSpeed": 5.12,
+                                "windDirection": 99.31,
+                                "humidity": 88.88,
+                                "pressureSeaLevel": 30.12,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 8.57,
+                                "cloudCover": 100
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T06:00:00-08:00",
+                            "values": {
+                                "temperature": 59.2,
+                                "temperatureApparent": 59.2,
+                                "temperatureMin": 59.2,
+                                "temperatureMax": 59.2,
+                                "windSpeed": 3.56,
+                                "windDirection": 93.47,
+                                "humidity": 86.71,
+                                "pressureSeaLevel": 30.15,
+                                "uvIndex": 0,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.14,
+                                "cloudCover": 100
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T07:00:00-08:00",
+                            "values": {
+                                "temperature": 54.07,
+                                "temperatureApparent": 54.07,
+                                "temperatureMin": 54.07,
+                                "temperatureMax": 54.07,
+                                "windSpeed": 6.51,
+                                "windDirection": 47.79,
+                                "humidity": 93.53,
+                                "pressureSeaLevel": 30.15,
+                                "uvIndex": 0,
+                                "weatherCode": 2100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 2.04,
+                                "cloudCover": 100
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T08:00:00-08:00",
+                            "values": {
+                                "temperature": 55.09,
+                                "temperatureApparent": 55.09,
+                                "temperatureMin": 55.09,
+                                "temperatureMax": 55.09,
+                                "windSpeed": 6.44,
+                                "windDirection": 31.21,
+                                "humidity": 90.58,
+                                "pressureSeaLevel": 30.16,
+                                "uvIndex": 0,
+                                "weatherCode": 1102,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 3.39,
+                                "cloudCover": 69.53
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T09:00:00-08:00",
+                            "values": {
+                                "temperature": 57.63,
+                                "temperatureApparent": 57.63,
+                                "temperatureMin": 57.63,
+                                "temperatureMax": 57.63,
+                                "windSpeed": 5.35,
+                                "windDirection": 43.63,
+                                "humidity": 81.59,
+                                "pressureSeaLevel": 30.16,
+                                "uvIndex": 1,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 10.16
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T10:00:00-08:00",
+                            "values": {
+                                "temperature": 62.74,
+                                "temperatureApparent": 62.74,
+                                "temperatureMin": 62.74,
+                                "temperatureMax": 62.74,
+                                "windSpeed": 3.85,
+                                "windDirection": 71.93,
+                                "humidity": 66.81,
+                                "pressureSeaLevel": 30.14,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0.78
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T11:00:00-08:00",
+                            "values": {
+                                "temperature": 68.61,
+                                "temperatureApparent": 68.61,
+                                "temperatureMin": 68.61,
+                                "temperatureMax": 68.61,
+                                "windSpeed": 3.51,
+                                "windDirection": 118.61,
+                                "humidity": 51.4,
+                                "pressureSeaLevel": 30.12,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0.78
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T12:00:00-08:00",
+                            "values": {
+                                "temperature": 73.27,
+                                "temperatureApparent": 73.27,
+                                "temperatureMin": 73.27,
+                                "temperatureMax": 73.27,
+                                "windSpeed": 5.26,
+                                "windDirection": 200.22,
+                                "humidity": 44.5,
+                                "pressureSeaLevel": 30.08,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0.78
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T13:00:00-08:00",
+                            "values": {
+                                "temperature": 71.55,
+                                "temperatureApparent": 71.55,
+                                "temperatureMin": 71.55,
+                                "temperatureMax": 71.55,
+                                "windSpeed": 12.08,
+                                "windDirection": 232.84,
+                                "humidity": 51.28,
+                                "pressureSeaLevel": 30.06,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 10.16
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T14:00:00-08:00",
+                            "values": {
+                                "temperature": 67.53,
+                                "temperatureApparent": 67.53,
+                                "temperatureMin": 67.53,
+                                "temperatureMax": 67.53,
+                                "windSpeed": 13.09,
+                                "windDirection": 233.01,
+                                "humidity": 59.43,
+                                "pressureSeaLevel": 30.04,
+                                "uvIndex": 1,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 14.06
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T15:00:00-08:00",
+                            "values": {
+                                "temperature": 67.24,
+                                "temperatureApparent": 67.24,
+                                "temperatureMin": 67.24,
+                                "temperatureMax": 67.24,
+                                "windSpeed": 9.91,
+                                "windDirection": 220.34,
+                                "humidity": 60.29,
+                                "pressureSeaLevel": 30.03,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 7.03
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T16:00:00-08:00",
+                            "values": {
+                                "temperature": 66.54,
+                                "temperatureApparent": 66.54,
+                                "temperatureMin": 66.54,
+                                "temperatureMax": 66.54,
+                                "windSpeed": 6.13,
+                                "windDirection": 182.82,
+                                "humidity": 64.26,
+                                "pressureSeaLevel": 30.03,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 3.13
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T17:00:00-08:00",
+                            "values": {
+                                "temperature": 64.24,
+                                "temperatureApparent": 64.24,
+                                "temperatureMin": 64.24,
+                                "temperatureMax": 64.24,
+                                "windSpeed": 5.06,
+                                "windDirection": 120.5,
+                                "humidity": 69.07,
+                                "pressureSeaLevel": 30.03,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0.78
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T18:00:00-08:00",
+                            "values": {
+                                "temperature": 63.81,
+                                "temperatureApparent": 63.81,
+                                "temperatureMin": 63.81,
+                                "temperatureMax": 63.81,
+                                "windSpeed": 3.53,
+                                "windDirection": 81.2,
+                                "humidity": 69.15,
+                                "pressureSeaLevel": 30.04,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T19:00:00-08:00",
+                            "values": {
+                                "temperature": 64.58,
+                                "temperatureApparent": 64.58,
+                                "temperatureMin": 64.58,
+                                "temperatureMax": 64.58,
+                                "windSpeed": 4.27,
+                                "windDirection": 60.91,
+                                "humidity": 65.54,
+                                "pressureSeaLevel": 30.04,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T20:00:00-08:00",
+                            "values": {
+                                "temperature": 63,
+                                "temperatureApparent": 63,
+                                "temperatureMin": 63,
+                                "temperatureMax": 63,
+                                "windSpeed": 4.45,
+                                "windDirection": 55.16,
+                                "humidity": 67.16,
+                                "pressureSeaLevel": 30.05,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T21:00:00-08:00",
+                            "values": {
+                                "temperature": 61.09,
+                                "temperatureApparent": 61.09,
+                                "temperatureMin": 61.09,
+                                "temperatureMax": 61.09,
+                                "windSpeed": 4.63,
+                                "windDirection": 18.13,
+                                "humidity": 66.9,
+                                "pressureSeaLevel": 30.06,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T22:00:00-08:00",
+                            "values": {
+                                "temperature": 58.95,
+                                "temperatureApparent": 58.95,
+                                "temperatureMin": 58.95,
+                                "temperatureMax": 58.95,
+                                "windSpeed": 4.34,
+                                "windDirection": 3.5,
+                                "humidity": 61.5,
+                                "pressureSeaLevel": 30.07,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T23:00:00-08:00",
+                            "values": {
+                                "temperature": 57.85,
+                                "temperatureApparent": 57.85,
+                                "temperatureMin": 57.85,
+                                "temperatureMax": 57.85,
+                                "windSpeed": 5.15,
+                                "windDirection": 349.59,
+                                "humidity": 56.31,
+                                "pressureSeaLevel": 30.07,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T00:00:00-08:00",
+                            "values": {
+                                "temperature": 57.02,
+                                "temperatureApparent": 57.02,
+                                "temperatureMin": 57.02,
+                                "temperatureMax": 57.02,
+                                "windSpeed": 5.46,
+                                "windDirection": 352.24,
+                                "humidity": 55.58,
+                                "pressureSeaLevel": 30.06,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T01:00:00-08:00",
+                            "values": {
+                                "temperature": 55.92,
+                                "temperatureApparent": 55.92,
+                                "temperatureMin": 55.92,
+                                "temperatureMax": 55.92,
+                                "windSpeed": 5.28,
+                                "windDirection": 349.77,
+                                "humidity": 57.52,
+                                "pressureSeaLevel": 30.05,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T02:00:00-08:00",
+                            "values": {
+                                "temperature": 54.81,
+                                "temperatureApparent": 54.81,
+                                "temperatureMin": 54.81,
+                                "temperatureMax": 54.81,
+                                "windSpeed": 5.08,
+                                "windDirection": 3.35,
+                                "humidity": 58.96,
+                                "pressureSeaLevel": 30.04,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T03:00:00-08:00",
+                            "values": {
+                                "temperature": 53.74,
+                                "temperatureApparent": 53.74,
+                                "temperatureMin": 53.74,
+                                "temperatureMax": 53.74,
+                                "windSpeed": 5.32,
+                                "windDirection": 23.64,
+                                "humidity": 58.75,
+                                "pressureSeaLevel": 30.04,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T04:00:00-08:00",
+                            "values": {
+                                "temperature": 53.19,
+                                "temperatureApparent": 53.19,
+                                "temperatureMin": 53.19,
+                                "temperatureMax": 53.19,
+                                "windSpeed": 5.86,
+                                "windDirection": 18.02,
+                                "humidity": 58.36,
+                                "pressureSeaLevel": 30.04,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T05:00:00-08:00",
+                            "values": {
+                                "temperature": 53.13,
+                                "temperatureApparent": 53.13,
+                                "temperatureMin": 53.13,
+                                "temperatureMax": 53.13,
+                                "windSpeed": 6.08,
+                                "windDirection": 7.11,
+                                "humidity": 57.62,
+                                "pressureSeaLevel": 30.04,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T06:00:00-08:00",
+                            "values": {
+                                "temperature": 53.37,
+                                "temperatureApparent": 53.37,
+                                "temperatureMin": 53.37,
+                                "temperatureMax": 53.37,
+                                "windSpeed": 6.33,
+                                "windDirection": 358.62,
+                                "humidity": 56.66,
+                                "pressureSeaLevel": 30.05,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T07:00:00-08:00",
+                            "values": {
+                                "temperature": 55.17,
+                                "temperatureApparent": 55.17,
+                                "temperatureMin": 55.17,
+                                "temperatureMax": 55.17,
+                                "windSpeed": 6.02,
+                                "windDirection": 353.57,
+                                "humidity": 53.21,
+                                "pressureSeaLevel": 30.07,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T08:00:00-08:00",
+                            "values": {
+                                "temperature": 62.76,
+                                "temperatureApparent": 62.76,
+                                "temperatureMin": 62.76,
+                                "temperatureMax": 62.76,
+                                "windSpeed": 3.65,
+                                "windDirection": 356.78,
+                                "humidity": 40.9,
+                                "pressureSeaLevel": 30.08,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T09:00:00-08:00",
+                            "values": {
+                                "temperature": 71.11,
+                                "temperatureApparent": 71.11,
+                                "temperatureMin": 71.11,
+                                "temperatureMax": 71.11,
+                                "windSpeed": 2.62,
+                                "windDirection": 26.44,
+                                "humidity": 30.45,
+                                "pressureSeaLevel": 30.09,
+                                "uvIndex": 1,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T10:00:00-08:00",
+                            "values": {
+                                "temperature": 77.32,
+                                "temperatureApparent": 77.32,
+                                "temperatureMin": 77.32,
+                                "temperatureMax": 77.32,
+                                "windSpeed": 3.02,
+                                "windDirection": 42.85,
+                                "humidity": 24.25,
+                                "pressureSeaLevel": 30.08,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T11:00:00-08:00",
+                            "values": {
+                                "temperature": 83.03,
+                                "temperatureApparent": 80.55,
+                                "temperatureMin": 83.03,
+                                "temperatureMax": 83.03,
+                                "windSpeed": 1.48,
+                                "windDirection": 19.49,
+                                "humidity": 19.21,
+                                "pressureSeaLevel": 30.06,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T12:00:00-08:00",
+                            "values": {
+                                "temperature": 87.58,
+                                "temperatureApparent": 83.93,
+                                "temperatureMin": 87.58,
+                                "temperatureMax": 87.58,
+                                "windSpeed": 1.3,
+                                "windDirection": 275.52,
+                                "humidity": 15.55,
+                                "pressureSeaLevel": 30.03,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T13:00:00-08:00",
+                            "values": {
+                                "temperature": 89.96,
+                                "temperatureApparent": 85.93,
+                                "temperatureMin": 89.96,
+                                "temperatureMax": 89.96,
+                                "windSpeed": 3.58,
+                                "windDirection": 247.69,
+                                "humidity": 14.42,
+                                "pressureSeaLevel": 30,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T14:00:00-08:00",
+                            "values": {
+                                "temperature": 89.1,
+                                "temperatureApparent": 85.21,
+                                "temperatureMin": 89.1,
+                                "temperatureMax": 89.1,
+                                "windSpeed": 6.67,
+                                "windDirection": 246.45,
+                                "humidity": 15.49,
+                                "pressureSeaLevel": 29.98,
+                                "uvIndex": 1,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T15:00:00-08:00",
+                            "values": {
+                                "temperature": 84.49,
+                                "temperatureApparent": 81.63,
+                                "temperatureMin": 84.49,
+                                "temperatureMax": 84.49,
+                                "windSpeed": 10.74,
+                                "windDirection": 248.42,
+                                "humidity": 19.55,
+                                "pressureSeaLevel": 29.96,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T16:00:00-08:00",
+                            "values": {
+                                "temperature": 77.09,
+                                "temperatureApparent": 77.09,
+                                "temperatureMin": 77.09,
+                                "temperatureMax": 77.09,
+                                "windSpeed": 10.2,
+                                "windDirection": 249.04,
+                                "humidity": 30.48,
+                                "pressureSeaLevel": 29.97,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T17:00:00-08:00",
+                            "values": {
+                                "temperature": 72.64,
+                                "temperatureApparent": 72.64,
+                                "temperatureMin": 72.64,
+                                "temperatureMax": 72.64,
+                                "windSpeed": 7.81,
+                                "windDirection": 247.09,
+                                "humidity": 43.97,
+                                "pressureSeaLevel": 29.97,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T18:00:00-08:00",
+                            "values": {
+                                "temperature": 72.77,
+                                "temperatureApparent": 72.77,
+                                "temperatureMin": 72.77,
+                                "temperatureMax": 72.77,
+                                "windSpeed": 2.95,
+                                "windDirection": 298.08,
+                                "humidity": 48.98,
+                                "pressureSeaLevel": 29.98,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T19:00:00-08:00",
+                            "values": {
+                                "temperature": 72.66,
+                                "temperatureApparent": 72.66,
+                                "temperatureMin": 72.66,
+                                "temperatureMax": 72.66,
+                                "windSpeed": 4.76,
+                                "windDirection": 358.77,
+                                "humidity": 38.89,
+                                "pressureSeaLevel": 29.99,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T20:00:00-08:00",
+                            "values": {
+                                "temperature": 69.06,
+                                "temperatureApparent": 69.06,
+                                "temperatureMin": 69.06,
+                                "temperatureMax": 69.06,
+                                "windSpeed": 4.59,
+                                "windDirection": 33.48,
+                                "humidity": 34.92,
+                                "pressureSeaLevel": 30,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T21:00:00-08:00",
+                            "values": {
+                                "temperature": 66.31,
+                                "temperatureApparent": 66.31,
+                                "temperatureMin": 66.31,
+                                "temperatureMax": 66.31,
+                                "windSpeed": 4.45,
+                                "windDirection": 27.08,
+                                "humidity": 36.13,
+                                "pressureSeaLevel": 30.02,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T22:00:00-08:00",
+                            "values": {
+                                "temperature": 64.81,
+                                "temperatureApparent": 64.81,
+                                "temperatureMin": 64.81,
+                                "temperatureMax": 64.81,
+                                "windSpeed": 5.17,
+                                "windDirection": 9.62,
+                                "humidity": 35.08,
+                                "pressureSeaLevel": 30.03,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T23:00:00-08:00",
+                            "values": {
+                                "temperature": 63.27,
+                                "temperatureApparent": 63.27,
+                                "temperatureMin": 63.27,
+                                "temperatureMax": 63.27,
+                                "windSpeed": 5.66,
+                                "windDirection": 354.31,
+                                "humidity": 36.65,
+                                "pressureSeaLevel": 30.03,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T00:00:00-08:00",
+                            "values": {
+                                "temperature": 61.41,
+                                "temperatureApparent": 61.41,
+                                "temperatureMin": 61.41,
+                                "temperatureMax": 61.41,
+                                "windSpeed": 5.26,
+                                "windDirection": 352.4,
+                                "humidity": 39.04,
+                                "pressureSeaLevel": 30.02,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T01:00:00-08:00",
+                            "values": {
+                                "temperature": 59.32,
+                                "temperatureApparent": 59.32,
+                                "temperatureMin": 59.32,
+                                "temperatureMax": 59.32,
+                                "windSpeed": 4.56,
+                                "windDirection": 359.28,
+                                "humidity": 42.44,
+                                "pressureSeaLevel": 30.02,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T02:00:00-08:00",
+                            "values": {
+                                "temperature": 58.12,
+                                "temperatureApparent": 58.12,
+                                "temperatureMin": 58.12,
+                                "temperatureMax": 58.12,
+                                "windSpeed": 4.59,
+                                "windDirection": 12.39,
+                                "humidity": 44.3,
+                                "pressureSeaLevel": 30.02,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T03:00:00-08:00",
+                            "values": {
+                                "temperature": 57.34,
+                                "temperatureApparent": 57.34,
+                                "temperatureMin": 57.34,
+                                "temperatureMax": 57.34,
+                                "windSpeed": 4.92,
+                                "windDirection": 25.93,
+                                "humidity": 45.72,
+                                "pressureSeaLevel": 30.02,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T04:00:00-08:00",
+                            "values": {
+                                "temperature": 57.04,
+                                "temperatureApparent": 57.04,
+                                "temperatureMin": 57.04,
+                                "temperatureMax": 57.04,
+                                "windSpeed": 5.44,
+                                "windDirection": 17.03,
+                                "humidity": 45.79,
+                                "pressureSeaLevel": 30.02,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T05:00:00-08:00",
+                            "values": {
+                                "temperature": 56.79,
+                                "temperatureApparent": 56.79,
+                                "temperatureMin": 56.79,
+                                "temperatureMax": 56.79,
+                                "windSpeed": 5.93,
+                                "windDirection": 8.91,
+                                "humidity": 46.23,
+                                "pressureSeaLevel": 30.03,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T06:00:00-08:00",
+                            "values": {
+                                "temperature": 56.07,
+                                "temperatureApparent": 56.07,
+                                "temperatureMin": 56.07,
+                                "temperatureMax": 56.07,
+                                "windSpeed": 5.93,
+                                "windDirection": 6.04,
+                                "humidity": 47.59,
+                                "pressureSeaLevel": 30.04,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T07:00:00-08:00",
+                            "values": {
+                                "temperature": 57.45,
+                                "temperatureApparent": 57.45,
+                                "temperatureMin": 57.45,
+                                "temperatureMax": 57.45,
+                                "windSpeed": 5.64,
+                                "windDirection": 7.6,
+                                "humidity": 45.51,
+                                "pressureSeaLevel": 30.05,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T08:00:00-08:00",
+                            "values": {
+                                "temperature": 65.68,
+                                "temperatureApparent": 65.68,
+                                "temperatureMin": 65.68,
+                                "temperatureMax": 65.68,
+                                "windSpeed": 3.91,
+                                "windDirection": 16.32,
+                                "humidity": 34.21,
+                                "pressureSeaLevel": 30.07,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T09:00:00-08:00",
+                            "values": {
+                                "temperature": 74.01,
+                                "temperatureApparent": 74.01,
+                                "temperatureMin": 74.01,
+                                "temperatureMax": 74.01,
+                                "windSpeed": 2.89,
+                                "windDirection": 52.57,
+                                "humidity": 26.1,
+                                "pressureSeaLevel": 30.07,
+                                "uvIndex": 1,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T10:00:00-08:00",
+                            "values": {
+                                "temperature": 81.59,
+                                "temperatureApparent": 79.56,
+                                "temperatureMin": 81.59,
+                                "temperatureMax": 81.59,
+                                "windSpeed": 3.74,
+                                "windDirection": 61.13,
+                                "humidity": 19.26,
+                                "pressureSeaLevel": 30.06,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T11:00:00-08:00",
+                            "values": {
+                                "temperature": 87.82,
+                                "temperatureApparent": 84.11,
+                                "temperatureMin": 87.82,
+                                "temperatureMax": 87.82,
+                                "windSpeed": 1.72,
+                                "windDirection": 57.76,
+                                "humidity": 14.09,
+                                "pressureSeaLevel": 30.05,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T12:00:00-08:00",
+                            "values": {
+                                "temperature": 91.13,
+                                "temperatureApparent": 86.86,
+                                "temperatureMin": 91.13,
+                                "temperatureMax": 91.13,
+                                "windSpeed": 1.97,
+                                "windDirection": 223.41,
+                                "humidity": 12.21,
+                                "pressureSeaLevel": 30.02,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 10.37,
+                                "cloudCover": 0.62
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T13:00:00-08:00",
+                            "values": {
+                                "temperature": 92.21,
+                                "temperatureApparent": 87.82,
+                                "temperatureMin": 92.21,
+                                "temperatureMax": 92.21,
+                                "windSpeed": 5.21,
+                                "windDirection": 235.29,
+                                "humidity": 12,
+                                "pressureSeaLevel": 29.99,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 10.79,
+                                "cloudCover": 1.76
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T14:00:00-08:00",
+                            "values": {
+                                "temperature": 90.16,
+                                "temperatureApparent": 86.05,
+                                "temperatureMin": 90.16,
+                                "temperatureMax": 90.16,
+                                "windSpeed": 7.74,
+                                "windDirection": 243.99,
+                                "humidity": 13.48,
+                                "pressureSeaLevel": 29.98,
+                                "uvIndex": 1,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 11.21,
+                                "cloudCover": 6.37
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T15:00:00-08:00",
+                            "values": {
+                                "temperature": 85.19,
+                                "temperatureApparent": 82.08,
+                                "temperatureMin": 85.19,
+                                "temperatureMax": 85.19,
+                                "windSpeed": 9.64,
+                                "windDirection": 253.11,
+                                "humidity": 17.24,
+                                "pressureSeaLevel": 29.97,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 11.63,
+                                "cloudCover": 8.63
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T16:00:00-08:00",
+                            "values": {
+                                "temperature": 79.95,
+                                "temperatureApparent": 79.95,
+                                "temperatureMin": 79.95,
+                                "temperatureMax": 79.95,
+                                "windSpeed": 7.87,
+                                "windDirection": 242.84,
+                                "humidity": 23.33,
+                                "pressureSeaLevel": 29.96,
+                                "uvIndex": 0,
+                                "weatherCode": 1101,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 14.58,
+                                "cloudCover": 43.6
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T17:00:00-08:00",
+                            "values": {
+                                "temperature": 76.6,
+                                "temperatureApparent": 76.6,
+                                "temperatureMin": 76.6,
+                                "temperatureMax": 76.6,
+                                "windSpeed": 6.69,
+                                "windDirection": 249.93,
+                                "humidity": 30.19,
+                                "pressureSeaLevel": 29.98,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 12.47,
+                                "cloudCover": 4.03
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T18:00:00-08:00",
+                            "values": {
+                                "temperature": 76.08,
+                                "temperatureApparent": 76.08,
+                                "temperatureMin": 76.08,
+                                "temperatureMax": 76.08,
+                                "windSpeed": 3.13,
+                                "windDirection": 248.82,
+                                "humidity": 30.23,
+                                "pressureSeaLevel": 29.98,
+                                "uvIndex": 0,
+                                "weatherCode": 1101,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 40.65
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T19:00:00-08:00",
+                            "values": {
+                                "temperature": 76.26,
+                                "temperatureApparent": 76.26,
+                                "temperatureMin": 76.26,
+                                "temperatureMax": 76.26,
+                                "windSpeed": 2.44,
+                                "windDirection": 195.45,
+                                "humidity": 29.08,
+                                "pressureSeaLevel": 29.99,
+                                "uvIndex": 0,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 32.44
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T20:00:00-08:00",
+                            "values": {
+                                "temperature": 76.75,
+                                "temperatureApparent": 76.75,
+                                "temperatureMin": 76.75,
+                                "temperatureMax": 76.75,
+                                "windSpeed": 2.62,
+                                "windDirection": 188.92,
+                                "humidity": 26.22,
+                                "pressureSeaLevel": 29.99,
+                                "uvIndex": 0,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 25.12
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T21:00:00-08:00",
+                            "values": {
+                                "temperature": 76.86,
+                                "temperatureApparent": 76.86,
+                                "temperatureMin": 76.86,
+                                "temperatureMax": 76.86,
+                                "windSpeed": 2.93,
+                                "windDirection": 25.82,
+                                "humidity": 23.9,
+                                "pressureSeaLevel": 30,
+                                "uvIndex": 0,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 20.1
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T22:00:00-08:00",
+                            "values": {
+                                "temperature": 76.28,
+                                "temperatureApparent": 76.28,
+                                "temperatureMin": 76.28,
+                                "temperatureMax": 76.28,
+                                "windSpeed": 3.13,
+                                "windDirection": 26.6,
+                                "humidity": 23.19,
+                                "pressureSeaLevel": 30,
+                                "uvIndex": 0,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 16.75
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T23:00:00-08:00",
+                            "values": {
+                                "temperature": 75.78,
+                                "temperatureApparent": 75.78,
+                                "temperatureMin": 75.78,
+                                "temperatureMax": 75.78,
+                                "windSpeed": 3.91,
+                                "windDirection": 139.87,
+                                "humidity": 22.12,
+                                "pressureSeaLevel": 30.01,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T00:00:00-08:00",
+                            "values": {
+                                "temperature": 75.18,
+                                "temperatureApparent": 75.18,
+                                "temperatureMin": 75.18,
+                                "temperatureMax": 75.18,
+                                "windSpeed": 3.91,
+                                "windDirection": 11.02,
+                                "humidity": 21.83,
+                                "pressureSeaLevel": 30,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T01:00:00-08:00",
+                            "values": {
+                                "temperature": 74.61,
+                                "temperatureApparent": 74.61,
+                                "temperatureMin": 74.61,
+                                "temperatureMax": 74.61,
+                                "windSpeed": 3.78,
+                                "windDirection": 18,
+                                "humidity": 21.74,
+                                "pressureSeaLevel": 30,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T02:00:00-08:00",
+                            "values": {
+                                "temperature": 74.1,
+                                "temperatureApparent": 74.1,
+                                "temperatureMin": 74.1,
+                                "temperatureMax": 74.1,
+                                "windSpeed": 4.16,
+                                "windDirection": 14.63,
+                                "humidity": 21.74,
+                                "pressureSeaLevel": 29.99,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T03:00:00-08:00",
+                            "values": {
+                                "temperature": 73.56,
+                                "temperatureApparent": 73.56,
+                                "temperatureMin": 73.56,
+                                "temperatureMax": 73.56,
+                                "windSpeed": 3.94,
+                                "windDirection": 15.49,
+                                "humidity": 21.92,
+                                "pressureSeaLevel": 29.99,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T04:00:00-08:00",
+                            "values": {
+                                "temperature": 73.09,
+                                "temperatureApparent": 73.09,
+                                "temperatureMin": 73.09,
+                                "temperatureMax": 73.09,
+                                "windSpeed": 3.53,
+                                "windDirection": 14.56,
+                                "humidity": 22.17,
+                                "pressureSeaLevel": 29.99,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T05:00:00-08:00",
+                            "values": {
+                                "temperature": 72.59,
+                                "temperatureApparent": 72.59,
+                                "temperatureMin": 72.59,
+                                "temperatureMax": 72.59,
+                                "windSpeed": 3.27,
+                                "windDirection": 14.3,
+                                "humidity": 22.6,
+                                "pressureSeaLevel": 29.99,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T06:00:00-08:00",
+                            "values": {
+                                "temperature": 72.12,
+                                "temperatureApparent": 72.12,
+                                "temperatureMin": 72.12,
+                                "temperatureMax": 72.12,
+                                "windSpeed": 3.04,
+                                "windDirection": 19.68,
+                                "humidity": 23.02,
+                                "pressureSeaLevel": 29.99,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T07:00:00-08:00",
+                            "values": {
+                                "temperature": 72.23,
+                                "temperatureApparent": 72.23,
+                                "temperatureMin": 72.23,
+                                "temperatureMax": 72.23,
+                                "windSpeed": 2.82,
+                                "windDirection": 18.69,
+                                "humidity": 22.91,
+                                "pressureSeaLevel": 30,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T08:00:00-08:00",
+                            "values": {
+                                "temperature": 74.34,
+                                "temperatureApparent": 74.34,
+                                "temperatureMin": 74.34,
+                                "temperatureMax": 74.34,
+                                "windSpeed": 2.66,
+                                "windDirection": 142.17,
+                                "humidity": 21.33,
+                                "pressureSeaLevel": 30.02,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T09:00:00-08:00",
+                            "values": {
+                                "temperature": 77.43,
+                                "temperatureApparent": 77.43,
+                                "temperatureMin": 77.43,
+                                "temperatureMax": 77.43,
+                                "windSpeed": 1.28,
+                                "windDirection": 140.06,
+                                "humidity": 19.25,
+                                "pressureSeaLevel": 30.02,
+                                "uvIndex": 1,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T10:00:00-08:00",
+                            "values": {
+                                "temperature": 80.11,
+                                "temperatureApparent": 78.58,
+                                "temperatureMin": 80.11,
+                                "temperatureMax": 80.11,
+                                "windSpeed": 0.87,
+                                "windDirection": 223.63,
+                                "humidity": 17.59,
+                                "pressureSeaLevel": 30.02,
+                                "uvIndex": 2,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T11:00:00-08:00",
+                            "values": {
+                                "temperature": 82.31,
+                                "temperatureApparent": 80.13,
+                                "temperatureMin": 82.31,
+                                "temperatureMax": 82.31,
+                                "windSpeed": 1.43,
+                                "windDirection": 219.13,
+                                "humidity": 16.39,
+                                "pressureSeaLevel": 30,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T12:00:00-08:00",
+                            "values": {
+                                "temperature": 83.93,
+                                "temperatureApparent": 81.12,
+                                "temperatureMin": 83.93,
+                                "temperatureMax": 83.93,
+                                "windSpeed": 3.36,
+                                "windDirection": 230.92,
+                                "humidity": 15.6,
+                                "pressureSeaLevel": 29.98,
+                                "uvIndex": 3,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T13:00:00-08:00",
+                            "values": {
+                                "temperature": 84.92,
+                                "temperatureApparent": 81.9,
+                                "temperatureMin": 84.92,
+                                "temperatureMax": 84.92,
+                                "windSpeed": 5.23,
+                                "windDirection": 235.04,
+                                "humidity": 15.6,
+                                "pressureSeaLevel": 29.95,
+                                "uvIndex": 2,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T14:00:00-08:00",
+                            "values": {
+                                "temperature": 84.34,
+                                "temperatureApparent": 81.61,
+                                "temperatureMin": 84.34,
+                                "temperatureMax": 84.34,
+                                "windSpeed": 6.46,
+                                "windDirection": 240.08,
+                                "humidity": 17.1,
+                                "pressureSeaLevel": 29.94,
+                                "uvIndex": 1,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T15:00:00-08:00",
+                            "values": {
+                                "temperature": 82.44,
+                                "temperatureApparent": 80.2,
+                                "temperatureMin": 82.44,
+                                "temperatureMax": 82.44,
+                                "windSpeed": 7,
+                                "windDirection": 245.03,
+                                "humidity": 19.19,
+                                "pressureSeaLevel": 29.93,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T16:00:00-08:00",
+                            "values": {
+                                "temperature": 79.83,
+                                "temperatureApparent": 78.85,
+                                "temperatureMin": 79.83,
+                                "temperatureMax": 79.83,
+                                "windSpeed": 6.46,
+                                "windDirection": 248.08,
+                                "humidity": 21.76,
+                                "pressureSeaLevel": 29.92,
+                                "uvIndex": 0,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T17:00:00-08:00",
+                            "values": {
+                                "temperature": 77.07,
+                                "temperatureApparent": 77.07,
+                                "temperatureMin": 77.07,
+                                "temperatureMax": 77.07,
+                                "windSpeed": 5.53,
+                                "windDirection": 244.02,
+                                "humidity": 25.22,
+                                "pressureSeaLevel": 29.93,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 4.33
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T18:00:00-08:00",
+                            "values": {
+                                "temperature": 75.61,
+                                "temperatureApparent": 75.61,
+                                "temperatureMin": 75.61,
+                                "temperatureMax": 75.61,
+                                "windSpeed": 4.34,
+                                "windDirection": 237.74,
+                                "humidity": 27.79,
+                                "pressureSeaLevel": 29.94,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 2.16
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T19:00:00-08:00",
+                            "values": {
+                                "temperature": 74.68,
+                                "temperatureApparent": 74.68,
+                                "temperatureMin": 74.68,
+                                "temperatureMax": 74.68,
+                                "windSpeed": 2.98,
+                                "windDirection": 223.17,
+                                "humidity": 29.62,
+                                "pressureSeaLevel": 29.95,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 13.9
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T20:00:00-08:00",
+                            "values": {
+                                "temperature": 73.67,
+                                "temperatureApparent": 73.67,
+                                "temperatureMin": 73.67,
+                                "temperatureMax": 73.67,
+                                "windSpeed": 3.04,
+                                "windDirection": 210.52,
+                                "humidity": 31.82,
+                                "pressureSeaLevel": 29.96,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 35.4
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T21:00:00-08:00",
+                            "values": {
+                                "temperature": 72.68,
+                                "temperatureApparent": 72.68,
+                                "temperatureMin": 72.68,
+                                "temperatureMax": 72.68,
+                                "windSpeed": 2.46,
+                                "windDirection": 189.07,
+                                "humidity": 33.75,
+                                "pressureSeaLevel": 29.97,
+                                "weatherCode": 1101,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 48.34
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T22:00:00-08:00",
+                            "values": {
+                                "temperature": 72.14,
+                                "temperatureApparent": 72.14,
+                                "temperatureMin": 72.14,
+                                "temperatureMax": 72.14,
+                                "windSpeed": 1.92,
+                                "windDirection": 159.16,
+                                "humidity": 33.87,
+                                "pressureSeaLevel": 29.97,
+                                "weatherCode": 1101,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 53.15
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T23:00:00-08:00",
+                            "values": {
+                                "temperature": 71.83,
+                                "temperatureApparent": 71.83,
+                                "temperatureMin": 71.83,
+                                "temperatureMax": 71.83,
+                                "windSpeed": 1.9,
+                                "windDirection": 139.76,
+                                "humidity": 32.94,
+                                "pressureSeaLevel": 29.96,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 11.2
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-14T00:00:00-08:00",
+                            "values": {
+                                "temperature": 71.51,
+                                "temperatureApparent": 71.51,
+                                "temperatureMin": 71.51,
+                                "temperatureMax": 71.51,
+                                "windSpeed": 1.92,
+                                "windDirection": 137.24,
+                                "humidity": 32.14,
+                                "pressureSeaLevel": 29.96,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 8.74
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "warnings": [
+            {
+                "code": 246009,
+                "type": "Missing Time Range",
+                "message": "The timestep is not supported in full for the time range requested.",
+                "meta": {
+                    "timestep": "current",
+                    "from": "now",
+                    "to": "+1m"
+                }
+            }
+        ]
+    },
+    "day": {
+        "data": {
+            "timelines": [
+                {
+                    "timestep": "1d",
+                    "startTime": "2021-11-09T06:00:00-08:00",
+                    "endTime": "2021-11-23T06:00:00-08:00",
+                    "intervals": [
+                        {
+                            "startTime": "2021-11-09T06:00:00-08:00",
+                            "values": {
+                                "temperature": 68.67,
+                                "temperatureApparent": 68.67,
+                                "temperatureMin": 56.93,
+                                "temperatureMax": 68.67,
+                                "windSpeed": 11.88,
+                                "windDirection": 199.63,
+                                "humidity": 96.56,
+                                "pressureSeaLevel": 30.12,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 100,
+                                "sunriseTime": "2021-11-09T06:20:00-08:00",
+                                "moonPhase": 1,
+                                "sunsetTime": "2021-11-09T16:53:20-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-10T06:00:00-08:00",
+                            "values": {
+                                "temperature": 73.27,
+                                "temperatureApparent": 73.27,
+                                "temperatureMin": 53.13,
+                                "temperatureMax": 73.27,
+                                "windSpeed": 13.09,
+                                "windDirection": 122.85,
+                                "humidity": 93.53,
+                                "pressureSeaLevel": 30.03,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 100,
+                                "sunriseTime": "2021-11-10T06:21:40-08:00",
+                                "moonPhase": 2,
+                                "sunsetTime": "2021-11-10T16:53:20-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-11T06:00:00-08:00",
+                            "values": {
+                                "temperature": 89.96,
+                                "temperatureApparent": 85.93,
+                                "temperatureMin": 55.17,
+                                "temperatureMax": 89.96,
+                                "windSpeed": 10.74,
+                                "windDirection": 181.33,
+                                "humidity": 53.21,
+                                "pressureSeaLevel": 29.96,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 9.94,
+                                "cloudCover": 0,
+                                "sunriseTime": "2021-11-11T06:21:40-08:00",
+                                "moonPhase": 2,
+                                "sunsetTime": "2021-11-11T16:51:40-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-12T06:00:00-08:00",
+                            "values": {
+                                "temperature": 92.21,
+                                "temperatureApparent": 87.82,
+                                "temperatureMin": 57.45,
+                                "temperatureMax": 92.21,
+                                "windSpeed": 9.64,
+                                "windDirection": 111.19,
+                                "humidity": 45.51,
+                                "pressureSeaLevel": 29.96,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 43.6,
+                                "sunriseTime": "2021-11-12T06:23:20-08:00",
+                                "moonPhase": 2,
+                                "sunsetTime": "2021-11-12T16:51:40-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-13T06:00:00-08:00",
+                            "values": {
+                                "temperature": 84.92,
+                                "temperatureApparent": 81.9,
+                                "temperatureMin": 69.62,
+                                "temperatureMax": 84.92,
+                                "windSpeed": 7,
+                                "windDirection": 176.13,
+                                "humidity": 33.87,
+                                "pressureSeaLevel": 29.92,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 53.15,
+                                "sunriseTime": "2021-11-13T06:23:20-08:00",
+                                "moonPhase": 2,
+                                "sunsetTime": "2021-11-13T16:51:40-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-14T06:00:00-08:00",
+                            "values": {
+                                "temperature": 80.37,
+                                "temperatureApparent": 78.84,
+                                "temperatureMin": 68.23,
+                                "temperatureMax": 80.37,
+                                "windSpeed": 4.81,
+                                "windDirection": 168.78,
+                                "humidity": 44.11,
+                                "pressureSeaLevel": 29.94,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 100,
+                                "sunriseTime": "2021-11-14T06:23:20-08:00",
+                                "moonPhase": 3,
+                                "sunsetTime": "2021-11-14T16:48:20-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-15T06:00:00-08:00",
+                            "values": {
+                                "temperature": 79.03,
+                                "temperatureApparent": 79.03,
+                                "temperatureMin": 66.24,
+                                "temperatureMax": 79.03,
+                                "windSpeed": 6.55,
+                                "windDirection": 216.18,
+                                "humidity": 47.48,
+                                "pressureSeaLevel": 30.01,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 100,
+                                "sunriseTime": "2021-11-15T06:26:40-08:00",
+                                "moonPhase": 3,
+                                "sunsetTime": "2021-11-15T16:48:20-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-16T06:00:00-08:00",
+                            "values": {
+                                "temperature": 75.29,
+                                "temperatureApparent": 75.29,
+                                "temperatureMin": 64.31,
+                                "temperatureMax": 75.29,
+                                "windSpeed": 6.73,
+                                "windDirection": 224.01,
+                                "humidity": 50.78,
+                                "pressureSeaLevel": 29.99,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 100,
+                                "sunriseTime": "2021-11-16T06:26:40-08:00",
+                                "moonPhase": 3,
+                                "sunsetTime": "2021-11-16T16:48:20-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-17T06:00:00-08:00",
+                            "values": {
+                                "temperature": 74.43,
+                                "temperatureApparent": 74.43,
+                                "temperatureMin": 62.89,
+                                "temperatureMax": 74.43,
+                                "windSpeed": 6.64,
+                                "windDirection": 197.05,
+                                "humidity": 57.7,
+                                "pressureSeaLevel": 29.93,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 29.89,
+                                "sunriseTime": "2021-11-17T06:28:20-08:00",
+                                "moonPhase": 4,
+                                "sunsetTime": "2021-11-17T16:48:20-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-18T06:00:00-08:00",
+                            "values": {
+                                "temperature": 72.37,
+                                "temperatureApparent": 72.37,
+                                "temperatureMin": 61.05,
+                                "temperatureMax": 72.37,
+                                "windSpeed": 8.57,
+                                "windDirection": 168.38,
+                                "humidity": 79.56,
+                                "pressureSeaLevel": 29.89,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 83.3,
+                                "sunriseTime": "2021-11-18T06:28:20-08:00",
+                                "moonPhase": 4,
+                                "sunsetTime": "2021-11-18T16:46:40-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-19T06:00:00-08:00",
+                            "values": {
+                                "temperature": 72.34,
+                                "temperatureApparent": 72.34,
+                                "temperatureMin": 61.27,
+                                "temperatureMax": 72.34,
+                                "windSpeed": 8.17,
+                                "windDirection": 185.36,
+                                "humidity": 70.95,
+                                "pressureSeaLevel": 29.92,
+                                "weatherCode": 1100,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 81.76,
+                                "sunriseTime": "2021-11-19T06:30:00-08:00",
+                                "moonPhase": 4,
+                                "sunsetTime": "2021-11-19T16:46:40-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-20T06:00:00-08:00",
+                            "values": {
+                                "temperature": 73.15,
+                                "temperatureApparent": 73.15,
+                                "temperatureMin": 61.34,
+                                "temperatureMax": 73.15,
+                                "windSpeed": 7.14,
+                                "windDirection": 108.29,
+                                "humidity": 23.17,
+                                "pressureSeaLevel": 29.89,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0.86,
+                                "sunriseTime": "2021-11-20T06:30:00-08:00",
+                                "moonPhase": 4,
+                                "sunsetTime": "2021-11-20T16:46:40-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-21T06:00:00-08:00",
+                            "values": {
+                                "temperature": 77.38,
+                                "temperatureApparent": 77.38,
+                                "temperatureMin": 61.07,
+                                "temperatureMax": 77.38,
+                                "windSpeed": 7.81,
+                                "windDirection": 288.75,
+                                "humidity": 13.92,
+                                "pressureSeaLevel": 29.92,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 0,
+                                "sunriseTime": "2021-11-21T06:30:00-08:00",
+                                "moonPhase": 4,
+                                "sunsetTime": "2021-11-21T16:46:40-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-22T06:00:00-08:00",
+                            "values": {
+                                "temperature": 72.45,
+                                "temperatureApparent": 72.45,
+                                "temperatureMin": 58.35,
+                                "temperatureMax": 72.45,
+                                "windSpeed": 10.6,
+                                "windDirection": 190.61,
+                                "humidity": 69.71,
+                                "pressureSeaLevel": 29.81,
+                                "weatherCode": 1000,
+                                "precipitationProbability": 0,
+                                "precipitationType": 0,
+                                "visibility": 15,
+                                "cloudCover": 37.69,
+                                "sunriseTime": "2021-11-22T06:33:20-08:00",
+                                "moonPhase": 5,
+                                "sunsetTime": "2021-11-22T16:46:40-08:00"
+                            }
+                        },
+                        {
+                            "startTime": "2021-11-23T06:00:00-08:00",
+                            "values": {
+                                "temperature": 60.49,
+                                "temperatureApparent": 60.49,
+                                "temperatureMin": 58.62,
+                                "temperatureMax": 60.49,
+                                "windSpeed": 12.57,
+                                "windDirection": 134.61,
+                                "humidity": 68.11,
+                                "pressureSeaLevel": 29.74,
+                                "weatherCode": 1001,
+                                "precipitationProbability": 5,
+                                "precipitationType": 1,
+                                "visibility": 15,
+                                "cloudCover": 100,
+                                "sunriseTime": "2021-11-23T06:33:20-08:00",
+                                "moonPhase": 5,
+                                "sunsetTime": "2021-11-23T16:46:40-08:00"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

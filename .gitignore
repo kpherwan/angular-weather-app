@@ -4,3 +4,4 @@ env_variables.yaml
 .editorconfig
 weather-angular-app/.angular
 weather-angular-app/node_modules
+weather-angular-app/dist

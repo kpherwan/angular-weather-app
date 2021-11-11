@@ -31,6 +31,7 @@ const sendRequest = async (params, url = "https://api.tomorrow.io/v4/timelines")
       if (resp.status == 200) {
         return resp.data;
       }
+      
   } catch (err) {
       // Handle Error Here
       console.error(err);
@@ -69,7 +70,8 @@ app.get('/autocomplete', async function (req, res) {
 
 app.get('/currentWeather', async function (req, res) {
   let location = req.query.location
-
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.type('application/json');
   if (location) {
     
     let querystring = {
@@ -105,12 +107,9 @@ app.get('/currentWeather', async function (req, res) {
       resultJson = { "current": response1, "day": response2 };
     }
     else {
-      resultJson = require("./weather-angular-app/sampleData.json");
+      resultJson = require("./sampleData.json");
       //resultJson = { "error": "Number of calls exceeded for tomorrow" };
     }
-
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.type('application/json');
     res.send(resultJson).end();
   }
   else {

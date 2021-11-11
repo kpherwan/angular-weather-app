@@ -19,5 +19,8 @@ includes:
   - env_variables.yaml
 
 handlers:
+
 - url: /images
   static_dir: images
+
+

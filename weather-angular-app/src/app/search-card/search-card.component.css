@@ -25,3 +25,23 @@
 .nav-item {
     cursor: pointer;
 }
+
+.cpointer{
+    cursor: pointer;
+}
+
+.svgSize {
+    height: 32px;
+    width: 32px;
+    fill: rgb(10, 85, 253);
+}
+
+.svgSize img {
+    height: 24px;
+    width: 24px;
+    fill: rgb(10, 85, 253);
+}
+
+.full {
+    height: 40vw;
+}
