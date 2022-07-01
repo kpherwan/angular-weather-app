@@ -1,5 +1,6 @@
 # Quickstart for Node.js in the App Engine standard environment
 
+AVAILABLE FOR TESTING ON https://csci571-hw8-returns.wl.r.appspot.com/
 This is the sample application for the
 [Quickstart for Node.js in the App Engine standard environment][tutorial]
 tutorial found in the [Google App Engine Node.js standard environment][appengine]
