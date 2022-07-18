@@ -102,7 +102,7 @@ export class SearchCardComponent implements OnInit {
     }, 50);
 
     if (this.isAutoDetect) {
-      const data: any = await this.http.get("https://ipinfo.io/json?token=de7857647d098b").toPromise();
+      const data: any = await this.http.get("https://ipinfo.io/json?token=??").toPromise();
       this.initializedData = data;
       if (data.loc) {
         this.location = await data.loc;
@@ -149,7 +149,7 @@ export class SearchCardComponent implements OnInit {
       ` on ` + this.currentDateData.dateStr + ` is ` + this.currentDateData?.values.temperatureApparent + ` °F. The weather conditions are `
       + this.currentDateData?.statusText + ` #CSCI571WeatherSearch`);
 
-    let loader = new Loader({ apiKey: 'AIzaSyASTUacuge5Ih0iR1_fSSBJpGh7L5qgxj0' });
+    let loader = new Loader({ apiKey: '??' });
 
     const locArr = this.location.split(",");
 
